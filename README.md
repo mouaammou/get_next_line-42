@@ -9,10 +9,6 @@
 - [Features](#features)
 - [Function Prototype](#function-prototype)
 - [Important Notes](#important-notes)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [License](#license)
 
 ## Introduction
 
@@ -45,5 +41,3 @@ int fd: The file descriptor to read from.
  
 char *: The function returns a line read from the file descriptor. The line includes the terminating newline character, except for the last line if it doesn’t end with a newline.
 Returns NULL if there are no more lines to read, or in case of an error.
-
-## Installation
